@@ -1,5 +1,5 @@
 
-import logo from "../assets/logo/logo.svg";
+  import logo from "../assets/images/saylani.png";
 
 import { Link } from "react-router-dom";
 import  "../index.css"
@@ -26,8 +26,8 @@ export default function Header() {
     <>
       <div className={ ` transition-color duration-300 border-b-[1px] }`}>
         <div className="h-24  justify-around  relative flex max-w-full items-center max-mm:gap-2 max-ml:gap-2">
-<Link to={'/'} className="max-xs:w-8 max-xs:h-8 max-mm:w-7 max-mm:h-7">
-        <img src={logo} alt="" />
+<Link to={'/'} className="border h-24  flex justify-center items-center">
+        <img src={logo}  alt="" className="h-full w-full"/>
 </Link>
 
     
@@ -57,3 +57,5 @@ export default function Header() {
     </>
   );
 }
+
+

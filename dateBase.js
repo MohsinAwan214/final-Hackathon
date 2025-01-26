@@ -10,7 +10,7 @@ const mongoDbUri = process.env.MONGO_URL
 const connectDB = async () => {
     try {
       const connectionInstance = await mongoose.connect(mongoDbUri, {
-        dbName: "my-todo-db",
+        dbName: "final-hackathon-db",
       });
   
       console.log(`\n🌿 MongoDB connected ! 🍃\n`);
@@ -48,9 +48,6 @@ const connectDB = async () => {
 //   })();
 
 //  connectDB();
-
-
-
 
 
 

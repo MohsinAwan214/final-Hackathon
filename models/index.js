@@ -1,13 +1,7 @@
 import { Schema, model } from "mongoose";
 
 
-const todoSchema = new Schema(
-  {
-    todoContent: { type: String, required: true },
-ip:{type: String}
-  },
-  { timestamps: true },
-);
+
 
 const userSchema = new Schema(
   {

@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 export default function RegistrationPage() {
   const [fullName, setFullName] = useState('');
@@ -69,7 +68,6 @@ export default function RegistrationPage() {
             <p>Registration successful! You can now log in.</p>
           </div>
         )}
-    
       </div>
     </div>
   );
